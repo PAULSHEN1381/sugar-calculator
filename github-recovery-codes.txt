@@ -1,0 +1,19 @@
+f0f0e-60d72
+d375f-5d1d6
+242f4-581fc
+078fa-00cbf
+d6c39-824bb
+2b734-ea11f
+8c206-e558d
+42719-4f57c
+dd300-16aee
+142a8-bc575
+bd50a-21118
+4e73b-eb7d6
+9fed6-a4775
+8d95d-0492d
+d320f-18d1c
+59e0b-30923
+
+cd C:\Users\PAUL\Desktop
+python -m streamlit run calculator.py
