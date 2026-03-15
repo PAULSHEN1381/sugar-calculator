@@ -93,11 +93,15 @@ st.markdown("---")
 # 创建计算按钮和结果显示
 if st.button("🧮 计算主食质量", type="primary", use_container_width=True):
     try:
-        # 计算血糖调整值
+         # 计算血糖调整值
         if pre_meal_glucose < 6.5:
             adjustment = pre_meal_glucose - 6.5
             status = "偏低 ⬇️"
             status_icon = "🔴"
+        elif pre_meal_glucose > 14:
+            adjustment = pre_meal_glucose - 8
+            status = "极高 ⬆️⬆️"
+            status_icon = "🔴"  # 或使用 "🔥"
         elif pre_meal_glucose > 7:
             adjustment = pre_meal_glucose - 7
             status = "偏高 ⬆️"
